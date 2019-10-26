@@ -19,7 +19,7 @@ class euler
 		{
 			c=fibonaci.get(i)+fibonaci.get(i+1);
 			if(c>fib_max)
-			break;
+				break;
 			
 			fibonaci.add(c);
 			System.out.println((i+1)+". "+c);
