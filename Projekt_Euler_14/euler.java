@@ -9,7 +9,7 @@ public class euler
 		for(long i=1;i<1000000;)
 		{
 			x=i;
-			System.out.println("Aktualnie sprawdzana liczba: "+x);
+			//System.out.println("Aktualnie sprawdzana liczba: "+x);
 			while(x!=1)
 			{
 				if(x%2==0)
@@ -22,7 +22,6 @@ public class euler
 					x=(3*x)+1;
 					buf++;
 				}
-				//System.out.println("po zmianie "+x);
 			}
 			if (buf>steps)
 			{
